@@ -11,6 +11,10 @@
     
     @livewire('hello-world')
 
+
+    <h2>Countries</h2>
+    @livewire('countries')
+
     @livewireScripts 
 </body>
 </html>

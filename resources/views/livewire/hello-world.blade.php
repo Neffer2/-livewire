@@ -7,7 +7,7 @@
         <option value="Hi">Hi</option>
         <option value="Goodbye">Goodbye</option>
     </select>
-
+ 
     {{ $greeting }} {{ $name }} @if ($exclamation) ! @endif
 
     <form action="" wire:submit.prevent="reset_name($event.target.innerText)">
