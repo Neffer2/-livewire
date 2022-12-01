@@ -8,12 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    
-    @livewire('hello-world')
+    <h2>Hola mundo</h2>
+    @livewire('hello-world') 
 
 
     <h2>Countries</h2>
     @livewire('countries')
+
+    <h2>Nested (childs)</h2>
+    @livewire('live-father')
 
     @livewireScripts 
 </body>
