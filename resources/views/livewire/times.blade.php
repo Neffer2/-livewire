@@ -1,0 +1,3 @@
+<div>
+    {{ $greeting }}: {{ now() }}
+</div>

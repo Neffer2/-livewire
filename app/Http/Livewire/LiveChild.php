@@ -6,10 +6,10 @@ use Livewire\Component;
 
 class LiveChild extends Component
 {
-    public $name;
+    public $pais;
 
     public function render()
     {
         return view('livewire.live-child');
-    }
-}
+    } 
+} 

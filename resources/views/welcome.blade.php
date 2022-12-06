@@ -16,7 +16,10 @@
     @livewire('countries')
 
     <h2>Nested (childs)</h2>
-    @livewire('live-father')
+    @livewire('live-father') 
+
+    <h2>Events (communication between two components)</h2>
+    @livewire('time-container')
 
     @livewireScripts 
 </body>
